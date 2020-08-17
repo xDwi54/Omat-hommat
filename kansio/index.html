@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript" src="java.js"></script>    
+    <link rel="stylesheet" href="style.css"
+</head>
+<body>
+    <form action="">
+        <p>Anna 1. luku</p>
+        <input type="text" id="eka" value="">
+        <p> Anna 2. luku</p>
+        <input type="text" id="toka" value="">
+        <button type="button" name="button" onclick="vertaile()"">Vertaile</button> 
+        <button type="button" name="button" onclick="laske()"">Laske yhteen</button>
+        <button type="button" name="button" onclick="kerro()">Kerro</button>
+        <button type="button" name="button" onclick="jaa()">Jaa</button>
+        <p id="ok"</p>
+            <section>
+                <div id="tulokset"></div>
+                <form name="kyselylomake" onsubmit="return lahetavastaukset()"></form>
+                    <h3>1. Mihin HTML elementtiin sijoitamme JavaScript kooding?</h3>
+                    <input type="radio" name="k1" value="a" id="k1a">a. &lt;js&gt;<br>
+                    <input type="radio" name="k1" value="b" id="k1b">b. &lt;script&gt;<br>
+                    <input type="radio" name="k1" value="c" id="k1c">c. &lt;body&gt;<br>
+                    <input type="radio" name="k1" value="d" id="k1d">d. &lt;link&gt;<br>
+
+                    <h3>2. Kuinka kirjoitat "Moikka" alert-viestinä?</h3>
+                    <input type="radio" name="k2" value="a" id="k1a">a. msg("Moikka");<br>
+                    <input type="radio" name="k2" value="b" id="k1a">b. alertBox("Moikka");<br>
+                    <input type="radio" name="k2" value="c" id="k1a">c. document.write("Moikka");<br>
+                    <input type="radio" name="k2" value="d" id="k1a">d. alert("Moikka");<br>
+                    <input type="submit" value="Lähetä vastaukset">
+            </section>
+    </form>
+</body>
+</html>
