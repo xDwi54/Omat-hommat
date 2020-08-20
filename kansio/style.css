@@ -1,4 +1,14 @@
 body {
-    background-color: rgb(10, 253, 213);
+    background-color:  whitesmoke;
     margin-left: 727px;
+}
+.t1, .t2, .t3, .t4,.t5 {
+    background-color: pink;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    width: 550px;
+    margin-top: 20px;
+    float:left;
+    margin-right: 10px;
 }
