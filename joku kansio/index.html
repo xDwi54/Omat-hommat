@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript" src="java.js"></script>    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <article class='joku'>
+        <h1>Tehtävä 1</h1>
+        <p>Tee ohjelma, jolle voi syöttää Scrabble-pelin sanan
+        ja ohjelma laskee kirjain pisteet seuraavasti</p>
+        <ul>
+            <li>A, E, I, N, S, T = 1p</li>
+            <li>O, Ä, K, L = 2p</li>
+            <l1>U, M = 3p</l1>
+            <li>Y, H, J, P, R, V, = 4p</li>
+            <li>Ö, D = 7p</li>
+            <li>B, F, G = 8p</li>
+            <li>C = 10p</li>
+            <li>Loput kirjaimet = 12p</li>
+        </ul>
+        <form class="" action="index.html" method="post">
+            <p>Anna sana, jonka pisteet lasketaan: <input type="text" id="scsana" value=""></p>
+            <button type="button" name="button" onclick="countPoints()">Laske kirjainpisteet</button>
+            <div id="tscrabble"></div>
+        </form>
+    </article>
+    <article class='joku'>
+        <h1>Tehtävä 2</h1>
+        <p>Tee ohjelma, joka arpoo lottonumerot (7kpl)</p>
+        <button type="button" name="button" onclick="lottoNumerot()">Arvo numerot</button>
+        <div id="laulu"></div>
+    </article>
+    <article class='joku'>
+        <h1>Tehtävä 3</h1>
+        <p>Tee ohjelma , joka muuntaa määritetyn (javascriptissä)
+        2-ulotteisen taulukon taulukkomuotoon</p>
+        <p>Esimerkiksi [[1, 2, 1, 24], [8, 11, 9, 4], [7, 0, 7, 27], [7, 4, 28, 14], [3, 10, 26, 7]]</p>
+        <table border='1'>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>1</td>
+                <td>24</td>
+              </tr>
+              <tr>
+                <td>8</td>
+                <td>11</td>
+                <td>9</td>
+                <td>4</td>
+              </tr>
+              <tr>
+                <td>7</td>
+                <td>0</td>
+                <td>7</td>
+                <td>27</td>
+              </tr>
+              <tr>
+                <td>7</td>
+                <td>4</td>
+                <td>24</td>
+                <td>14</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>10</td>
+                <td>26</td>
+                <td>7</td>
+              </tr>
+        </table>
+        <form class="" action="index.html" method="post">
+            <button type="button" name="button" onclick="trTaulukko()">Muunna talukoksi</button>
+            <div id="trtaulu"></div>
+        </form>
+    </article>
+    <article class='joku'>
+        <h1>Tehtävä 4</h1>
+        <p>Tee ohjelma, joka tekee taulukon kaikista korttipakan korteista
+        (2 sisäkkäistä silmukkaa) ja sen jälkeen sekoittaa "pakan" ja arpoo 5 korttia sieltä</p>
+        <button type="button" name="button" onclick="Cards()">Arvo 5 korttia</button>
+        <div id='cards'></div>
+    </article>
+</body>
+</html>
