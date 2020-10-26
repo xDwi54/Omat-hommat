@@ -1,0 +1,38 @@
+3.
+       static void Main(string[] args)
+        {
+            kaikkiLaskut(8, 5);
+        }
+        public static void kaikkiLaskut(int luku1, int luku2)
+        {
+            int a = luku1 + luku2;
+            int b = luku1 - luku2;
+            int c = luku1 * luku2;
+            int d = luku1 / luku2;
+
+            Console.WriteLine(a + " " + b + " " + c + " " + d);
+        }
+
+4.
+        static void Main(string[] args)
+        {
+            jako(8, 5);
+        }
+        public static void jako(int luku1, int luku2)
+        {
+            int a = luku1 % luku2;
+           
+
+            Console.WriteLine(a);
+        }
+5.
+        static void Main(string[] args)
+        {
+            nimi();
+        }
+        public static void nimi()
+        {
+            Console.WriteLine("Syötä Nimesi");
+            string nimi = Console.ReadLine();
+            Console.WriteLine("Hei " + nimi);
+        }

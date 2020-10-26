@@ -1,0 +1,13 @@
+C:\Users\daniel.ibrahim\source\repos\Harjotuksia\Harjotuksia\bin\Debug\netcoreapp3.1\Harjotuksia.exe
+C:\Users\daniel.ibrahim\source\repos\Harjotuksia\Harjotuksia\bin\Debug\netcoreapp3.1\Harjotuksia.deps.json
+C:\Users\daniel.ibrahim\source\repos\Harjotuksia\Harjotuksia\bin\Debug\netcoreapp3.1\Harjotuksia.runtimeconfig.json
+C:\Users\daniel.ibrahim\source\repos\Harjotuksia\Harjotuksia\bin\Debug\netcoreapp3.1\Harjotuksia.runtimeconfig.dev.json
+C:\Users\daniel.ibrahim\source\repos\Harjotuksia\Harjotuksia\bin\Debug\netcoreapp3.1\Harjotuksia.dll
+C:\Users\daniel.ibrahim\source\repos\Harjotuksia\Harjotuksia\bin\Debug\netcoreapp3.1\Harjotuksia.pdb
+C:\Users\daniel.ibrahim\source\repos\Harjotuksia\Harjotuksia\obj\Debug\netcoreapp3.1\Harjotuksia.csprojAssemblyReference.cache
+C:\Users\daniel.ibrahim\source\repos\Harjotuksia\Harjotuksia\obj\Debug\netcoreapp3.1\Harjotuksia.csproj.CoreCompileInputs.cache
+C:\Users\daniel.ibrahim\source\repos\Harjotuksia\Harjotuksia\obj\Debug\netcoreapp3.1\Harjotuksia.AssemblyInfoInputs.cache
+C:\Users\daniel.ibrahim\source\repos\Harjotuksia\Harjotuksia\obj\Debug\netcoreapp3.1\Harjotuksia.AssemblyInfo.cs
+C:\Users\daniel.ibrahim\source\repos\Harjotuksia\Harjotuksia\obj\Debug\netcoreapp3.1\Harjotuksia.dll
+C:\Users\daniel.ibrahim\source\repos\Harjotuksia\Harjotuksia\obj\Debug\netcoreapp3.1\Harjotuksia.pdb
+C:\Users\daniel.ibrahim\source\repos\Harjotuksia\Harjotuksia\obj\Debug\netcoreapp3.1\Harjotuksia.genruntimeconfig.cache
